@@ -5,11 +5,9 @@ package _06_minion;
  */
 
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-
 /*
 
 1. 
@@ -33,17 +31,8 @@ This is because there is no Minion class in the package.
     
  */
 
-public class MinionTest {
-	private String name; 
-	private int eyes; 
-	private String color; 
-	private String master;
 
-	public void minion() {
-		
-	}
-	
-	
+public class MinionTest {
 	@Test
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
