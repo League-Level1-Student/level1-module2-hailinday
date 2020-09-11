@@ -1,6 +1,6 @@
 package _07_tea_party;
 
-	public class TeaParty {
+	public class TeaParty {			
 		
 		String name;
 		boolean isWoman;
